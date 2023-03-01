@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar class="constrain">
-        <q-btn flat round dense class="q-mr-sm" to="/welcome" icon="eva-play-circle-outline" size="18px"/>
+        <q-btn flat round dense class="q-mr-sm" to="/" icon="eva-play-circle-outline" size="18px"/>
         <q-separator class="large-screen-only" vertical spaced/>
         <q-toolbar-title align="center">
           My favorite movies
