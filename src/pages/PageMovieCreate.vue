@@ -38,7 +38,8 @@
     </div>
   </q-page>
 </template>
-<script>import {uid} from 'quasar'
+<script>
+import {uid} from 'quasar'
 import {db} from '../boot/firebase'
 
 export default {
@@ -112,4 +113,3 @@ export default {
   },
 }
 </script>
-

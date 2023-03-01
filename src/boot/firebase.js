@@ -10,7 +10,6 @@ var firebaseConfig = {
   messagingSenderId: "644342339794",
   appId: "1:644342339794:web:9bb4de86d87c7b268c350b"
 }
-
 let firebaseApp = firebase.initializeApp(firebaseConfig)
 let db = firebaseApp.firestore()
 db.enablePersistence()
@@ -22,3 +21,6 @@ db.enablePersistence()
     }
   })
 export {db}
+
+
+

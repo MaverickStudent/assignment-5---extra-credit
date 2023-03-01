@@ -5,11 +5,9 @@
         <div class="text-h6">Welcome!</div>
       </q-card-section>
       <q-separator/>
-      <q-card-section class="row justify-center">
-        <q-img src="../assets/movies.jpg" style="max-width: 300px;"/>
-      </q-card-section>
+      <img src="~assets/movies.jpg" height="350" width="30">
       <q-card-actions align="right">
-        <q-btn flat to="/movie-list">Movies</q-btn>
+        <q-btn flat>Movies</q-btn>
       </q-card-actions>
       <q-separator/>
     </q-card>
